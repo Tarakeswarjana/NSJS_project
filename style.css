@@ -1,0 +1,53 @@
+ .main{
+    color:brown;
+    font-size: 24px;
+    font-family: "poppins",sans-serif;
+    text-align: center;
+} 
+#origin{
+    font-size: 20px;
+    color: blueviolet;
+}
+#destinetion{
+    font-size: 20px;
+    color: blueviolet; 
+}
+.main #map{
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width:600px;
+}
+#btn{
+    font-size: 20px;
+    padding: 2px 16px 2px 16px;
+    background-color:chartreuse;
+    border-radius: 5px;
+}
+@media screen and (max-width: 700px){
+    .main{
+        color:brown;
+        font-family: "poppins",sans-serif;
+        text-align: center;
+    } 
+    .main #map{
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        width:300px;
+    }
+    #btn{
+        font-size: 20px;
+        padding: 2px 16px 2px 16px;
+        background-color:chartreuse;
+        border-radius: 5px;
+    }
+    #origin{
+        font-size: 20px;
+        color: blueviolet;
+    }
+    #destinetion{
+        font-size: 20px;
+        color: blueviolet; 
+    }
+}
